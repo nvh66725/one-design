@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "jsx": "react",
+    "types": ["react", "react-dom"],
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", "rollup.config.js"],
+  "exclude": ["node_modules", "dist"]
+}
